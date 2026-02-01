@@ -2,13 +2,6 @@
 
 ![Whisper Groq](WhisperGroq.png)
 
- __        ___     _                      ____                  
- \ \      / / |__ (_)___ _ __   ___ _ __ / ___|_ __ ___   __ _  
-  \ \ /\ / /| '_ \| / __| '_ \ / _ \ '__| |  _| '__/ _ \ / _` | 
-   \ V  V / | | | | \__ \ |_) |  __/ |  | |_| | | | (_) | (_| | 
-    \_/\_/  |_| |_|_|___/ .__/ \___|_|   \____|_|  \___/ \__, | 
-                        |_|                                 |_| 
-
 Small cross-platform tool to press-and-hold a hotkey, record audio, send to Groq's Whisper model, and paste the transcription.
 
 **Project files**: [app.py](app.py), [requirements.txt](requirements.txt), [.env.example](.env.example)
@@ -75,3 +68,4 @@ License
 Questions / FAQ
 - Q: Where is the transcription stored?
 - A: Audio files are written to a temporary file and removed after processing. Transcription text is copied to clipboard and pasted into the active window.
+
