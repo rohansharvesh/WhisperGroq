@@ -48,7 +48,7 @@ python app.py
 Then press-and-hold the configured hotkey (default `f9`) to record; release to send the audio to Groq and paste the transcription into the focused app.
 
 About Groq API keys
-- Visit https://www.groq.ai (or the Groq developer console) to sign up and create an API key. Paste the key into your `.env` file as `GROQ_API_KEY`.
+- Visit https://www.groq.com (or the Groq developer console) to sign up and create an API key. Paste the key into your `.env` file as `GROQ_API_KEY`.
 - Check the Groq documentation and pricing pages for current free tier or trial availability — policies and pricing can change.
 
 Model and SDK
@@ -68,4 +68,5 @@ License
 Questions / FAQ
 - Q: Where is the transcription stored?
 - A: Audio files are written to a temporary file and removed after processing. Transcription text is copied to clipboard and pasted into the active window.
+
 
