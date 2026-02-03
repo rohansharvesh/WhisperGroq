@@ -65,6 +65,7 @@ Contributing
 
 License
 - This project is released under the MIT license (see `LICENSE`).
+
 Dev Notes
 - I made it pretty simple so anyone can build on top of it without restrictions - like giving it Agentic functions and allowing it to do local tasks. (Integration made easy and free)
 - Since most vibe coders aren’t willin to pay for tools like Whisprflow and frankly, I wasn’t going to pay for something I could get for free with the same precision.
@@ -72,6 +73,7 @@ Dev Notes
 Questions / FAQ
 - Q: Where is the transcription stored?
 - A: Audio files are written to a temporary file and removed after processing. Transcription text is copied to clipboard and pasted into the active window.
+
 
 
 
