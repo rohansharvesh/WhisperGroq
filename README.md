@@ -3,9 +3,10 @@
 ![Whisper Groq](WhisperGroq.png)
 
 This is a small cross-platform tool where you can press-and-hold a hotkey, record audio, send to Groq's Whisper model, and paste the transcription.
+
 Groq was offering free and Unlimited Credits so i had to build somethin with it. ( As of today - 3 Feb 2026 - Groq's offerin free unlimited credits )
 
-Part of the BridgeMind Vibeathon
+**Part of the BridgeMind Vibeathon**
 
 **Project files**: [app.py](app.py), [requirements.txt](requirements.txt), [.env.example](.env.example)
 
@@ -75,6 +76,7 @@ Dev Notes
 Questions / FAQ
 - Q: Where is the transcription stored?
 - A: Audio files are written to a temporary file and removed after processing. Transcription text is copied to clipboard and pasted into the active window.
+
 
 
 
